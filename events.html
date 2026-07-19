@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Space Events - Celestial Wonders</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0b0c10;
+      color: #c5c6c7;
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+      background: #1f2833;
+      padding: 15px;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 25px;
+    }
+
+    nav ul li a {
+      color: #66fcf1;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav ul li a:hover {
+      color: #c5c6c7;
+      border-bottom: 2px solid #66fcf1;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .gallery-item {
+      width: 250px;
+      transition: transform 0.3s;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #45a29e;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #1f2833;
+      color: #c5c6c7;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="topics.html">Topics</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="feedback.html">Review</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <div class="gallery-item">
+      <a href="solar.html"><img src="images/solar.jpg" alt="Solar Eclipse"></a>
+    </div>
+    <div class="gallery-item">
+      <a href="lunar.html"><img src="images/lunar.jpg" alt="Lunar Eclipse"></a>
+    </div>
+    <div class="gallery-item">
+      <a href="comet.html"><img src="images/comet.jpg" alt="Comet"></a>
+    </div>
+    <div class="gallery-item">
+      <a href="meteor-shower.html"><img src="images/meteor-shower.jpg" alt="Meteor Shower"></a>
+    </div>
+    <div class="gallery-item">
+      <a href="planet-align.html"><img src="images/planet-align.jpg" alt="Planetary Alignment"></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Celestial Wonders Project | Explore Cosmic Events</p>
+  </footer>
+</body>
+</html>
